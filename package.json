@@ -1,0 +1,37 @@
+{
+  "name": "griefficient",
+  "version": "1.0.0",
+  "description": "A tool that scans Shodan for Minecraft servers and gives you information about them, to help you mess around with public Minecraft servers.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "griefficient": "index.ts"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Odyssey346/Griefficient.git"
+  },
+  "keywords": [
+    "minecraft",
+    "shodan",
+    "gamedig"
+  ],
+  "author": "Odyssey346",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Odyssey346/Griefficient/issues"
+  },
+  "homepage": "https://github.com/Odyssey346/Griefficient#readme",
+  "dependencies": {
+    "@hapi/bourne": "^3.0.0",
+    "commander": "^9.3.0",
+    "dotenv": "^16.0.1",
+    "got": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3"
+  }
+}
