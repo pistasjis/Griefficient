@@ -6,7 +6,7 @@ export function checkEnv() {
         process.exit(1);
     }
     else if (process.env.GRIEFFICIENT_API_KEY === "CHANGE_ME") {
-        console.log(chalk.yellow("Hi there, you seem to be using Repl.it for Griefficient.\nYou have to set your GRIEFFICIENT_API_KEY variable to your Shodan API key. There are many guides on the internet that shows you how to do that.\nExiting!"));
+        console.log(chalk.yellow("Hi there, you seem to be using Repl.it for Griefficient.\nYou have to set your GRIEFFICIENT_API_KEY variable to your Shodan API key. There are many guides on the internet that shows you how to do that.\n\nIf you are running from the Odyssey346 repl.it, please make a fork of it and add your environment variable, as this is just a reference point.\nExiting!"));
         process.exit(1);
     }
     else {
