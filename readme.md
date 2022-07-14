@@ -12,7 +12,7 @@ This is perfect if you do not want to install Node.js for a simple project like 
 
 I cannot guarantee that I'll update it all the time, and I am not exactly sure how repl.it works (because I'm not that sort of dev).
 
-If you have an issue regarding it, do not add a comment. I do not read repl.it comments, and I will ignore them. [Go make an issue on GitHub instead.](https://github.com/Odyssey346/Griefficient/issues)
+If you have an issue regarding the repl.it, do not add a comment. I do not read repl.it comments, and I will ignore any issues reported through a comment. [Go make an issue on GitHub instead.](https://github.com/Odyssey346/Griefficient/issues)
 ### NPM package
 You can install it as a global NPM package by running this command:
 ``npm i -g griefficient``
