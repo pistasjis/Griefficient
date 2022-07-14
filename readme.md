@@ -5,6 +5,14 @@ A command line tool that scans Shodan for Minecraft servers and shows you detail
 ![](griefficient.gif)
 
 ## Install
+### repl.it (recommended)
+There is a [repl.it available here](https://replit.com/@Odyssey346/Griefficient?v=1)! All you have to do is fork it, go to the Secrets tab and add your Shodan API key to the GRIEFFICIENT_API_KEY secret.
+
+This is perfect if you do not want to install Node.js for a simple project like this, or if you are unable to do so.
+
+I cannot guarantee that I'll update it all the time, and I am not exactly sure how repl.it works (because I'm not that sort of dev).
+
+If you have an issue regarding it, do not add a comment. I do not read repl.it comments, and I will ignore them. [Go make an issue on GitHub instead.](https://github.com/Odyssey346/Griefficient/issues)
 ### NPM package
 You can install it as a global NPM package by running this command:
 ``npm i -g griefficient``
