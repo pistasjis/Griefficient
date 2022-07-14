@@ -2,7 +2,7 @@
 [![npm package version](https://img.shields.io/npm/v/griefficient)](https://www.npmjs.com/package/griefficient) [![License](https://img.shields.io/github/license/Odyssey346/Griefficient)](https://github.com/Odyssey346/Griefficient/blob/master/LICENSE) ![Downloads](https://img.shields.io/npm/dw/griefficient)
 
 A command line tool that scans Shodan for Minecraft servers and shows you details about them.
-![](griefficient.gif)
+![](https://cloud.projectsegfau.lt/s/xQKdaQxKZQZoPzP/download/griefficient.gif)
 
 ## Install
 ### repl.it (recommended)
