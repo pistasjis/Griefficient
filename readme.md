@@ -31,6 +31,7 @@ cd Griefficient
 nix-shell # if you're on NixOS you can just do this, and skip to the last part
 npm i
 npm run start # Start a thing that restarts Griefficient every time you make a change
+npm run start:windows # If you're on Windows you'll have to do this instead.
 ```
 ## Environment Variables
 You need to set the ``GRIEFFICIENT_API_KEY`` environment variable to your Shodan API key.
