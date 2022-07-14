@@ -1,6 +1,6 @@
 {
   "name": "griefficient",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool that scans Shodan for Minecraft servers and gives you information about them, to help you mess around with public Minecraft servers.",
   "main": "./lib/index.js",
   "scripts": {
