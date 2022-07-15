@@ -4,7 +4,7 @@ import { makeRequest } from './handle/request.js';  //FIXME: If tsconfig.json sp
 import chalk from  'chalk';
 
 const program = new Command();
-export const version = "1.0.3";
+export const version = "1.0.4";
 
 program
     .version(version)
