@@ -44,4 +44,9 @@ You need to set the `GRIEFFICIENT_API_KEY` environment variable to your Shodan A
 [Guide for Windows](https://docs.oracle.com/en/database/oracle/machine-learning/oml4r/1.5.1/oread/creating-and-modifying-environment-variables-on-windows.html)
 
 [Guide for Linux](https://www.cyberciti.biz/faq/set-environment-variable-linux/)
+
 ---
+
+## Credits
+- Odyssey346 - Main developer
+- akisblack - Made the building and development process easier
