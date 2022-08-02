@@ -1,41 +1,47 @@
 # Griefficient
+
 [![npm package version](https://img.shields.io/npm/v/griefficient)](https://www.npmjs.com/package/griefficient) [![License](https://img.shields.io/github/license/Odyssey346/Griefficient)](https://github.com/Odyssey346/Griefficient/blob/master/LICENSE) ![Downloads](https://img.shields.io/npm/dw/griefficient)
 
 A command line tool that scans Shodan for Minecraft servers and shows you details about them.
-![](https://cloud.projectsegfau.lt/s/xQKdaQxKZQZoPzP/download/griefficient.gif)
 
-## Install
-### repl.it (recommended)
-There is a [repl.it available here](https://replit.com/@Odyssey346/Griefficient?v=1)! All you have to do is fork it, go to the Secrets tab and add your Shodan API key to the GRIEFFICIENT_API_KEY secret.
+## Installation and usage
 
-This is perfect if you do not want to install Node.js for a simple project like this, or if you are unable to do so.
+### repl.it
 
-I cannot guarantee that I'll update it all the time, and I am not exactly sure how repl.it works (because I'm not that sort of dev).
+1. Navigate to [the repl.it](https://replit.com/@Odyssey346/Griefficient?v=1)
+2. Fork it
+3. Go to the `Secrets` tab and add [your Shodan API key](https://developer.shodan.io/api/requirements) to the `GRIEFFICIENT_API_KEY` secret.
+4. Run `griefficient` in the terminal
 
-If you have an issue regarding the repl.it, do not add a comment. I do not read repl.it comments, and I will ignore any issues reported through a comment. [Go make an issue on GitHub instead.](https://github.com/Odyssey346/Griefficient/issues)
-### NPM package
-You can install it as a global NPM package by running this command:
-``npm i -g griefficient``
+_If you have an issue with the repl.it please only report issues to the GitHub issues page and not the repl.it comments section._
 
-*note, on Linux, you might have to use sudo or doas to run that command.*
+### Locally, using npm
 
-I recommend you to install it through NPM if you just want to use Griefficient, and not develop it.
+1. Install [Node.js](https://nodejs.org).
+2. Run `npm i -g griefficient` in a terminal. _(On Linux you might need root privileges.)_
+3. [Set up your environment variables.](#environment-variables)
+4. Run `griefficient` in a new terminal.
 
-[Now go set up your environment variables!](#environment-variables)
+### Locally, by compiling
 
-And now you should be able to run ``griefficient`` in your terminal.
-### Manual
-```
+1. Install [Git](https://git-scm.com/) and [Node.js](https://nodejs.org).
+2. Open a terminal and run:
+
+```bash
 git clone https://github.com/Odyssey346/Griefficient
 cd Griefficient
-nix-shell # if you're on NixOS you can just do this, and skip to the last part
 npm i
-npm run start # Start a thing that restarts Griefficient every time you make a change
-npm run start:windows # If you're on Windows you'll have to do this instead.
+npm run build # If you are using NixOS, you can run `nix-shell` instead
 ```
-## Environment Variables
-You need to set the ``GRIEFFICIENT_API_KEY`` environment variable to your Shodan API key.
+
+3. [Set up your environment variables.](#environment-variables)
+
+---
+
+#### Environment Variables
+
+You need to set the `GRIEFFICIENT_API_KEY` environment variable to your Shodan API key.
 
 [Guide for Windows](https://docs.oracle.com/en/database/oracle/machine-learning/oml4r/1.5.1/oread/creating-and-modifying-environment-variables-on-windows.html)
 
-[Guide for Linux](https://www.cyberciti.biz/faq/set-environment-variable-linux/)
+## [Guide for Linux](https://www.cyberciti.biz/faq/set-environment-variable-linux/)
