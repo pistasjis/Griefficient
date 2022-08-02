@@ -9,6 +9,8 @@ pkgs.mkShell {
     shellHook = ''
         echo "Installing dependencies using npm, please wait."
         npm i
+        echo "Building"
+        npm run build
         echo "Done! Have a lot of fun ;)"
     '';
 }
