@@ -1,14 +1,14 @@
 {
-  "compilerOptions": {
-    "outDir": "lib",
-    "rootDir": "src",
-    "strict": false,
-    "allowJs": true,
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "declaration": true,
-    "esModuleInterop": true
-  }
+	"compilerOptions": {
+		"outDir": "dist",
+		"rootDir": "src",
+		"strict": false,
+		"allowJs": true,
+		"target": "es2022",
+		"module": "es2022",
+		"moduleResolution": "node16",
+		"resolveJsonModule": true,
+		"declaration": true,
+		"esModuleInterop": true
+	}
 }
