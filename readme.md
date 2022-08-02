@@ -37,11 +37,11 @@ npm run build # If you are using NixOS, you can run `nix-shell` instead
 3. [Set up your environment variables.](#environment-variables)
 
 ---
-
 #### Environment Variables
 
 You need to set the `GRIEFFICIENT_API_KEY` environment variable to your Shodan API key.
 
 [Guide for Windows](https://docs.oracle.com/en/database/oracle/machine-learning/oml4r/1.5.1/oread/creating-and-modifying-environment-variables-on-windows.html)
 
-## [Guide for Linux](https://www.cyberciti.biz/faq/set-environment-variable-linux/)
+[Guide for Linux](https://www.cyberciti.biz/faq/set-environment-variable-linux/)
+---
