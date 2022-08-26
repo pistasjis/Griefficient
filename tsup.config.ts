@@ -4,5 +4,7 @@ export default defineConfig({
 	entry: ["src/index.ts"],
 	clean: true,
 	minify: true,
-	format: "esm"
+	format: "cjs",
+	outDir: "build",
+	noExternal: ["@hapi/bourne", "chalk", "commander", "got"]
 });

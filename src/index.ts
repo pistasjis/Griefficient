@@ -1,3 +1,5 @@
+#!/bin/env node
+
 import { Command } from "commander";
 import { makeRequest } from "./handle/request"; //FIXME: If tsconfig.json specifies strictness, this throws an error during compile. That's not good!
 import chalk from "chalk";
