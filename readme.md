@@ -6,37 +6,36 @@ A command line tool that scans Shodan for Minecraft servers and shows you detail
 
 ## Installation and usage
 
-### repl.it
+### Using the executable (recommended)
 
-1. Navigate to [the repl.it](https://replit.com/@Odyssey346/Griefficient?v=1)
-2. Fork it
-3. Go to the `Secrets` tab and add [your Shodan API key](https://developer.shodan.io/api/requirements) to the `GRIEFFICIENT_API_KEY` secret.
-4. Run `griefficient` in the terminal
+1. Get the latest executable for your platform from the ["Releases"](https://github.com/Odyssey346/Griefficient/releases/latest) section on GitHub.
+2. [Set up your environment variables.](#environment-variables)
+3. Run the executable.
 
-_If you have an issue with the repl.it please only report issues to the GitHub issues page and not the repl.it comments section._
-
-### Locally, using npm
+### Using npm
 
 1. Install [Node.js](https://nodejs.org).
 2. Run `npm i -g griefficient` in a terminal. _(On Linux you might need root privileges.)_
 3. [Set up your environment variables.](#environment-variables)
 4. Run `griefficient` in a new terminal.
 
-### Locally, by compiling
+### By compiling
 
-1. Install [Git](https://git-scm.com/) and [Node.js](https://nodejs.org).
+1. Install [Git](https://git-scm.com/), [Node.js](https://nodejs.org) and [pnpm](https://pnpm.io).
 2. Open a terminal and run:
 
 ```bash
 git clone https://github.com/Odyssey346/Griefficient
 cd Griefficient
-npm i
-npm run build # If you are using NixOS, you can run `nix-shell` instead
+pnpm i
+pnpm build
 ```
 
 3. [Set up your environment variables.](#environment-variables)
+4. Run `pnpm preview` in the same terminal you ran the previous commands.
 
 ---
+
 #### Environment Variables
 
 You need to set the `GRIEFFICIENT_API_KEY` environment variable to your Shodan API key.
@@ -48,5 +47,6 @@ You need to set the `GRIEFFICIENT_API_KEY` environment variable to your Shodan A
 ---
 
 ## Credits
-- Odyssey346 - Main developer
-- akisblack - Made the building and development process easier
+
+-   Odyssey346 - Main developer
+-   akisblack - Made the building and development process easier

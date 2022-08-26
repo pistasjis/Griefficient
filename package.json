@@ -1,18 +1,15 @@
 {
 	"name": "griefficient",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "A tool that scans Shodan for Minecraft servers and gives you information about them, to help you mess around with public Minecraft servers.",
 	"scripts": {
-		"dev": "tsup --watch",
-		"preview": "node dist/index.js",
-		"build": "tsup",
-		"local": "sudo npm i -g && griefficient",
-		"refresh": "rm -rf ./node_modules ./package-lock.json && npm install",
-		"format": "prettier --write ."
+		"dev": "tsup --watch --onSuccess 'node dist/index.js'",
+		"preview": "node build/index.js",
+		"build": "tsup-node src/index.ts --format esm",
+		"package": "tsup && pkg -t linux-x64,macos-x64,win-x64 -C GZip --out-path dist ./build/index.cjs",
+		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
-	"bin": {
-		"griefficient": "./dist/index.js"
-	},
+	"bin": "./build/index.cjs",
 	"author": "Odyssey346",
 	"keywords": [
 		"minecraft",
@@ -35,6 +32,7 @@
 		"got": "^12.1.0"
 	},
 	"devDependencies": {
+		"pkg": "^5.8.0",
 		"prettier": "2.7.1",
 		"tsup": "^6.2.1"
 	},
